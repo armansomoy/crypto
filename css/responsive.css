@@ -1635,13 +1635,13 @@
 	}
 
 	.navbar-light .navbar-brand::before {
-		background: url('../images/logo.png');
+		background: url('../images/logo-01.png');
 		position: absolute;
 		top: 0;
 		right: 0;
 		content: "";
-		height: 30px;
-		width: 120px;
+		height: 72px;
+		width: 166px;
 	}
 
 	.header_effect {
@@ -2407,7 +2407,7 @@
 	}
 
 	#about_cryptonic_06 {
-		padding: 40px 0 100px;
+		padding: 20px 0 20px;
 	}
 
 	#about_cryptonic_06 .about_cryptonic-content {
@@ -2460,18 +2460,22 @@
 
 	#footer-06 .footer_items .footer_single_list_1 {
 		width: 100%;
+		text-align: center;
 	}
 
 	#footer-06 .footer_items .footer_single_list_2 {
-		width: 50%;
+		width: 100%;
+		text-align: center;
 	}
 
 	#footer-06 .footer_items .footer_single_list_3 {
-		width: 50%;
+		width: 100%;
+		text-align: center;
 	}
 
 	#footer-06 .footer_items .footer_single_list_4 {
 		width: 100%;
+		text-align: center;
 	}
 
 	#footer-06 .footer_items {
@@ -2788,12 +2792,26 @@
 	#roadmap_06 .location_04 {
 		width: 100%;
 	}
+
+	.mobile-device {
+		display: inline-block;
+	}
+
+	.web-device {
+		display: none;
+	}
+
+	.responsive-padding {
+		padding-bottom: 30px;
+	}
 }
 
 /*		Wide Mobile Layout: 480px.
 ------------------------------------------------- */
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+
+
 	#companis_supported_01 .companis_supported_logos ul li {
 		width: 35% !important;
 		margin-bottom: 30px;

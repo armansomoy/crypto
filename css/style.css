@@ -8140,3 +8140,7 @@ select {
 .bottom-padding{
 	padding-bottom: 150px;
 }
+
+.mobile-device{
+	display: none;
+}
