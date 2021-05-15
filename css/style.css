@@ -1435,7 +1435,6 @@ select {
 /*---------- Footer Style-------*/
 
 .footer {
-	padding-top: 150px;
 	position: relative;
 	background: #020c59;
 }
@@ -7624,7 +7623,6 @@ select {
 
 #footer-06 {
 	background: transparent;
-	padding-top: 180px;
 	z-index: 1;
 	position: relative;
 }
@@ -8133,4 +8131,12 @@ select {
 
 .left-padding{
 	padding-left: 30px;
+}
+
+.test-img{
+	border-radius: 10px;
+}
+
+.bottom-padding{
+	padding-bottom: 150px;
 }
